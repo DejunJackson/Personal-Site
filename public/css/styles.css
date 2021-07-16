@@ -21,28 +21,36 @@ a:hover{
 }
 
 
+
 /* id selectors */
 
 #home-container{
   background-color: black;
 
 }
-#about-container{
-  background-color: #E8F0F2;
+
+
+#profile-pic{
+  width: 370px;
+  height: 370px;
+
+  object-fit: contain;
+
+
 }
 
-#projects-container{
-  background-color: black;
-}
+#about{
+  color: #49EAF4;
+  font-size: 4rem;
+  position: absolute;
+  top: 100%;
 
-#education-container{
-  background-color: #E8F0F2;
-}
 
-#contact-container{
-  background-color: black;
 }
-
+.profile > p{
+  font-size: 2rem;
+  float: left;
+}
 /* class selectors */
 
 .section{
@@ -51,6 +59,8 @@ a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #E8F0F2
+
 }
 
 .intro{
