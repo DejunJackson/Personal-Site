@@ -2,6 +2,7 @@
 
 body{
   margin: auto;
+  background-color: white;
 }
 
 nav > ul{
@@ -20,12 +21,20 @@ a:hover{
   color: #49EAF4;
 }
 
-
+#about-container{
+  margin: auto;
+}
 
 /* id selectors */
 
 #home-container{
   background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 
 }
 
@@ -33,8 +42,8 @@ a:hover{
 #profile-pic{
   width: 370px;
   height: 370px;
-
-  object-fit: contain;
+  border-radius: 50%;
+  object-fit: cover;
 
 
 }
@@ -42,30 +51,69 @@ a:hover{
 #about{
   color: #49EAF4;
   font-size: 4rem;
-  position: absolute;
+  text-align: center;
   top: 100%;
 
 
 }
 .profile > p{
   font-size: 2rem;
-  float: left;
+  line-height: 2;
+  width: 70%;
+  float: right;
+
+
+}
+.profile{
+  position: relative;
+  margin-bottom: 100px;
+
+
+
 }
 /* class selectors */
 
 .section{
-  height: 100vh;
-  width: 100%;
-  display: flex;
+
+  width: 90%;
+
   justify-content: center;
   align-items: center;
-  background-color: #E8F0F2
+
+
+
 
 }
-
 .intro{
   color: white;
   font-size: 2rem;
+}
+.icons{
+
+  object-fit: contain;
+    float: left;
+    margin: 35px;
+
+}
+.icon-shrink{
+  height: 150px;
+
+}
+ul{
+  list-style: none;
+
+
+}
+.skill-list-two{
+  margin-top: 300px;
+}
+.skills{
+  margin-top: 175px;
+  clear: both;
+}
+.twitter-timeline{
+  height: 100px;
+  width: 100px;
 }
 
 #name{
