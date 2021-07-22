@@ -5,21 +5,24 @@
   <meta charset="utf-8">
   <title>Dejun Jackson</title>
   <link rel="stylesheet" href="public/CSS/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
+  <!-- The top section -->
   <div id="home-container">
     <nav>
       <a href="#home-container" id="logo">DJ</a>
       <ul>
-        <li><a href="#experience-container" class="nav-link">Experience</a></li>
         <li><a href="#projects-container" class="nav-link">Projects</a></li>
         <li><a href="#skills-container" class="nav-link">Skills</a></li>
         <li><a href="#about-container" class="nav-link">About</a></li>
         <li><a href="#home-container" class="nav-link">Home</a></li>
       </ul>
     </nav>
-
     <div class="intro">
       <h1>Hello,</h1>
       <h1>My name is <strong id="name">Dejun Jackson</strong></h1>
@@ -27,58 +30,55 @@
     </div>
   </div>
 
+<!-- The about section -->
   <div id="about-container" class="section">
     <h1 id="about">About</h1>
     <div class="profile">
-      <p>Hello, my name is Dejun Jackson and I am a Fullstack Web Developer. During my senior year in college, I took a CS course in Java and I have been self teaching ever since! I am very passionate about bringing ideas to life and coding allows me to do just that! I am always learning about new tech! Feel free to contact me!</p>
       <img id="profile-pic" src="public/images/20210721_000427.jpg" alt="Me at the Hollywood Sign">
+      <p>Hello, my name is Dejun Jackson and I am a Fullstack Web Developer. During my senior year in college, I took a CS course in Java and I have been self teaching ever since! I am very passionate about bringing ideas to life and coding allows me to do just that! I am always learning about new tech! Feel free to contact me!</p>
+
     </div>
 </div>
 
+<!-- The skills section -->
 <div id="skills-container" class="section">
-  <h1>Tech I'm Comfortable With:</h1>
+  <h1 class="subtitle">Tech I'm Comfortable With:</h1>
     <ul class="skill-list-one">
       <li><img class="icons icon-shrink" src='public/images/HTML.png' /></li>
       <li><img class="icons icon-shrink" src='public/images/CSS.png' /></li>
       <li><img class="icons icon-shrink" src='public/images/JavaScript.png' /></li>
       <li><img class="icons icon-shrink" src='public/images/Bootstrap.jpg' /></li>
-      <li><img class="icons " src='public/images/JQ.png' /></li>
+      <li><img class="icons JQ"  src='public/images/JQ.png' /></li>
     </ul>
+
+
+    </div>
+    <div id="skills-container" class="section">
     <ul class="skill-list-two">
       <li ><img class="icons icon-shrink"  src='public/images/Mongo.png' /></li>
       <li><img class="icons icon-shrink" src='public/images/Node.png' /></li>
       <li><img class="icons icon-shrink" src='public/images/SQL.png' /></li>
-      <li><img class="icons" src='public/images/git.png' /></li>
-      <li><img class="icons" style="clear: both;"src='public/images/python.png' /></li>
+      <li><img class="icons icon-shrink" src='public/images/git.png' /></li>
+      <li><img class="icons icon-shrink" style="clear: right;"src='public/images/python.png' /></li>
     </ul>
-  <h1 style="clear: both;" >Tech I am Currently Learning:</h1>
-  <img class="icons"  src='public/images/React.png'/>
-  <h1 style="clear: both;">What bug am I complaining about right now?</h1>
 
-  <a class="twitter-timeline"  data-width="550"
-  data-height="800" href="https://twitter.com/Afro_codes?ref_src=twsrc%5Etfw">Tweets by Afro_codes</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <h1 class="subtitle" style="clear: left;" >Tech I am Currently Learning:</h1>
+  <img class="icons" id='react' src='public/images/React.png'/>
+  <h1 style="clear: both;" class="subtitle">What bug am I complaining about right now?</h1>
+
+  <div class="tweet-container">
+    <a class="twitter-timeline"  data-width="550"
+    data-height="800" href="https://twitter.com/Afro_codes?ref_src=twsrc%5Etfw">Tweets by Afro_codes</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
   </div>
 
+
+<!-- The projects section -->
   <div id="projects-container" class="section">
-  <h1 id="about">Projects</h1>
-
-
+  <h1 id="about">Personal Projects</h1>
   <div class="container">
     <img src='public/images/Blog-Demo.png' alt="Cinque Terre" width="600" height="400" class="project-pic">
     <div class="middle">
-
-      <button onclick="window.location.href='public/images/Blog-Demo-Video.mp4';" class="button" type="button" name="button">Video Demo</button>
-      <button onclick="window.location.href='https://github.com/DejunJackson/TLGS-Blog';" class="button" type="button" name="button">Code</button>
-      <button onclick="window.location.href='http://quiet-waters-52439.herokuapp.com/';" class="button" type="button" name="button">Live Demo</button>
-    </div>
-    <div class="desc">A blog made from scratch using the Quilljs text editor api. </div>
-    <div class="desc"><strong>Front-end:</strong> HTML, CSS, Boostrap, JavaScript </div>
-    <div class="desc"><strong>Backend:</strong> Nodejs, Expressjs, Mongodb, Mongoose </div>
-  </div>
-  <div class="container">
-    <img src='public/images/Blog-Demo.png' alt="Cinque Terre" width="600" height="400" class="project-pic">
-    <div class="middle">
-
       <button onclick="window.location.href='public/images/Blog-Demo-Video.mp4';" class="button" type="button" name="button">Video Demo</button>
       <button onclick="window.location.href='https://github.com/DejunJackson/TLGS-Blog';" class="button" type="button" name="button">Code</button>
       <button onclick="window.location.href='http://quiet-waters-52439.herokuapp.com/';" class="button" type="button" name="button">Live Demo</button>
@@ -88,12 +88,30 @@
     <div class="desc"><strong>Backend:</strong> Nodejs, Expressjs, Mongodb, Mongoose </div>
   </div>
 
+  <div class="container">
+    <img src='public/images/Tic Tac Toe Screenshot.png' alt="Cinque Terre" width="600" height="400" class="project-pic">
+    <div class="middle">
+      <button onclick="window.location.href='public/images/Day 5 - Tic Tac Toe.mp4';" class="button" type="button" name="button">Video Demo</button>
+      <button onclick="window.location.href='https://github.com/DejunJackson/TicTacToe';" class="button" type="button" name="button">Code</button>
+      <button onclick="window.location.href='https://frosty-torvalds-3b3550.netlify.app/';" class="button" type="button" name="button">Live Demo</button>
+    </div>
+
+    <div class="desc">A simple TicTacToe game to mainly practice jQuery </div>
+    <div class="desc"><strong>Front-end:</strong> HTML, CSS, JavaScript, jQuery </div>
   </div>
-  <div id="experience-container"class="section">
-  <h1 id="about">Experience</h1>
   </div>
+  <footer>
+  <p class='foot-text'>Dejun Jackson © 2021 Copyright</p>
+  <ul class="footer-icons">
+    <li><input class="i" type="image" src="public/images/LI-In-Bug.png" onclick="window.location.href='https://www.linkedin.com/in/dejun-jackson/';"/></li>
+    <li><input class="i" type="image" src="public/images/hub.png"  onclick="window.location.href='https://github.com/DejunJackson';"/></li>
+    <li><input class="i" type="image" src="public/images/Twitter.png" onclick="window.location.href='https://twitter.com/Afro_codes';"/></li>
+  </ul>
+
+  </footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="app.js" charset="utf-8"></script>
-</body>
+  </body>
 
 </html>
