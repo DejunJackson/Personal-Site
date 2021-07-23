@@ -118,11 +118,11 @@ nav > ul{
 
 /* skills selectors */
 .skill-list-one > li{
-  display: inline;
+  margin: auto;
 }
 
 .skill-list-two > li{
-  display: inline;
+  margin: auto;
 }
 
 #react{
@@ -156,11 +156,10 @@ nav > ul{
 }
 
 .skill-list-one{
-text-align: center;
+margin: auto;
 }
 .skill-list-two{
-  margin-top: 300px;
-  text-align: center;
+  margin: auto;
 }
 #skills-container{
   clear: both;
